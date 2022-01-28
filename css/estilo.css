@@ -1,0 +1,122 @@
+body{
+    
+    font-family: Calibri;
+    padding: 10px 20px;
+}
+
+h1 {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius:0 20px;
+}
+
+
+body{
+    font-family: Calibri;
+    padding: 10px 20px;
+	background: url("https://media.istockphoto.com/photos/an-abstract-blue-pattern-with-numbers-picture-id178895760")no-repeat center fixed;
+    font-family: Calibri;
+    
+	background-size: cover;
+}
+.pulsador {
+    padding:15px; 
+    width: auto; 
+    display: inline-block;
+     margin: 25px;
+cursor: pointer; 
+color: rgb(17, 17, 6); 
+border-radius: 40px;
+
+ background-image: -webkit-linear-gradient(top, #eb94d0, #20b044);
+  background-image: -moz-linear-gradient(top, #eb94d0, #3db020);
+  background-image: -ms-linear-gradient(top, #eb94d0, #20b020);
+  background-image: -o-linear-gradient(top, #eb94d0, #20b027);
+  background-image: linear-gradient(to bottom, #eb94d0, #20b04b);
+}
+.caja{
+    
+    float: left;
+}
+
+.usuario{
+    background-image: -webkit-linear-gradient(top, #eaeb94, #b02020);
+    background-image: -moz-linear-gradient(top, #eaeb94, #b02020);
+    background-image: -ms-linear-gradient(top, #eaeb94, #b02020);
+    background-image: -o-linear-gradient(top, #eaeb94, #b02020);
+    background-image: linear-gradient(to bottom, #eaeb94, #b02020);
+}
+
+input{
+    background-color:rgb(54, 255, 47);
+    padding: 10px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive ;
+    font-style: oblique;
+    background-image: -webkit-linear-gradient(top, #eaeb94, #b02020);
+    background-image: -moz-linear-gradient(top, #eaeb94, #b02020);
+    background-image: -ms-linear-gradient(top, #eaeb94, #b02020);
+    background-image: -o-linear-gradient(top, #eaeb94, #b02020);
+    background-image: linear-gradient(to bottom, #eaeb94, #b02020);
+}
+
+
+h2{
+    color: rgb(248, 66, 11);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tituloJuego{
+    color: rgb(255, 0, 119);
+    font-size: larger;
+    font-family: cursive;
+}
+
+p{
+color: rgb(124, 44, 12);
+}
+
+h1{
+color: darkgreen;
+font-family: cursive;
+}
+
+.refrescar{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+  background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+  border-radius: 6px;
+}
+
+.formulario{
+    text-align: center;
+    
+}
+
+.datos{
+    
+    text-align: center;
+    color: rgb(92, 5, 5);
+    font-size: 20px;
+    list-style-position: inside;
+}
+#reglas{
+    font-size: 30px;
+    color: blue;
+}
+
+label{
+    display: inline-block;
+}
+
+::placeholder{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}

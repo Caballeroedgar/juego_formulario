@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adivina el numero magico!!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Open+Sans:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+	
+		<h1>Eres bueno adivinando numeros</h1>
+            <script src="js/archivo.js"></script>
+            <div class="formulario">
+                <form method="post" id="formu">
+                      <div class="caja">
+        
+                        <h1 class="tituloJuego">El juego se trata de encontrar el numero magico dentro de 100 numeros posibles 
+                            Suerte!
+                        </h1>
+                        <h3 id="reglas">
+                            Reglas de juego :
+                            </h3>
+                            <ol class="datos"> 
+                                <li><strong>Complete los datos del formulario para Jugar</strong></li>
+                                <li><strong>Los datos son obligatorios </strong></li>
+                                <li><strong>Tienes un maximo de 30 intentos para ganar</strong> </li>
+                            </ol>
+        
+                        
+                        </br>
+                       <label for=""> <h2><b>Ingrese su usuario</b>  </h2><input type="text" id="usuario" class="usuario" name="nombre" placeholder=" Ingrese su nombre" ></label>
+                       <label for=""><h2><b>ingrese su edad</b>  </h2><input type="number" id="numero" class="edad" name="numero" placeholder="Ingrese la edad"></label>
+                     
+                        <input type="button" id="jugar" value="Vamos a Jugar!!" onclick="adivinar()"  class="pulsador"><br>
+                      
+                        <div class="pulsador" id="contador"><b>intentos</b></div><br>
+                        <div class="pulsador" id="resultado"><b>resultado</b></div><br>
+                        <input type="button" id="jugarDevuelta" value="quieres jugar devuelta" class="refrescar" onclick="location.reload()">
+                    </div>
+                    
+            </div>
+            
+        </form>
+
+</body>
+</html>
